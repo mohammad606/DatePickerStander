@@ -1,0 +1,169 @@
+
+*{
+    margin: 0;
+}
+
+.contDatePicker{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.showDate{
+    padding: 4px 10px;
+    border-radius: 5px;
+}
+
+.calSvg{
+    cursor: pointer;
+}
+
+.contSelectDate{
+    width: fit-content;
+    position: absolute;
+    top: 110%;
+    left: 0;
+    height: fit-content;
+    max-height: 360px;
+    min-width: 330px;
+    flex-direction: column;
+    border-radius: 10px;
+    -webkit-box-shadow: 5px 5px 12px 0.5px #000000;
+    -moz-box-shadow: 5px 5px 12px 0.5px #000000;
+    box-shadow: 5px 5px 12px 0.5px #000000;
+    user-select: none;  /* يمنع التحديد */
+    -webkit-user-select: none; /* لمتصفحات WebKit */
+    -moz-user-select: none; /* لفايرفوكس */
+    -ms-user-select: none; /* لإنترنت إكسبلورر */
+}
+
+.controlDate{
+    width: 100%;
+    min-height: 13%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+.yearSelector{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 7px;
+    padding: 5px 10px;
+    cursor: pointer;
+
+}
+.arrowYear{
+    transition: all 0.3s ease;
+    padding: 8px;
+    width: 30px;
+    height: 30px;
+
+}
+.arrowYear:hover{
+    background-color: #3f3e3e;
+    border-radius: 100%;
+}
+.contMonthSelect{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 5px 10px;
+
+}
+
+.arrowMonthIcon{
+    cursor: pointer;
+    padding: 8px;
+    width: 30px;
+    height: 30px;
+
+}
+
+.arrowMonthIcon:hover{
+    background-color: #3f3e3e;
+    border-radius: 100%;
+}
+
+
+.contSelectorDay{
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    position: relative;
+
+}
+
+.contDay{
+    font-weight: 200;
+}
+
+
+.contDay,.contDayNum{
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(7, 1fr);
+}
+.contDayNum{
+    cursor: pointer;
+
+}
+.contDayNum span{
+    padding: 10px 10px;
+    transition: all 0.1s ease;
+    border-radius: 100%;
+
+
+}
+.contDayNum span:hover{
+    background-color: #3f3e3e;
+}
+
+.dayNum{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.yearSelectorArray{
+    justify-content: space-between;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 10px;
+    position: absolute;
+    overflow-y: scroll;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    top: 0;
+    left: 0;
+}
+
+.yearSelectorArray::-webkit-scrollbar {
+    width: 10px; /* عرض الشريط */
+}
+
+.yearSelectorArray::-webkit-scrollbar-track {
+    background: #f1f1f1; /* لون خلفية المسار */
+    border-radius: 5px;
+}
+
+.yearSelectorArray::-webkit-scrollbar-thumb {
+    background: #888; /* لون شريط التمرير */
+    border-radius: 5px;
+}
+
+.yearNum{
+    padding: 15px;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+.yearNum:hover{
+    background-color: #3f3e3e;
+}

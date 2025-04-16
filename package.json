@@ -1,0 +1,87 @@
+{
+  "name": "craft-rex-date-picker-stander",
+  "version": "0.1.0",
+  "description": "A customizable React DatePicker component",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "lint": "eslint . --ext .ts,.tsx --fix",
+    "format": "prettier --write \"src/**/*.{ts,tsx}\"",
+    "test": "jest"
+  },
+  "keywords": [
+    "react",
+    "datepicker",
+    "component",
+    "typescript",
+    "dayjs",
+    "react-datepicker",
+    "react-component",
+    "react-hook-form",
+    "react-select",
+    "react-datepicker-component",
+    "react-datepicker-hook-form",
+    "react-datepicker-select",
+    "react-datepicker-component-hook-form",
+    "react-datepicker-component-select",
+    "react-datepicker-hook-form-select",
+    "react-datepicker-select-hook-form",
+    "react-datepicker-select-component",
+    "react-datepicker-component-select-hook-form",
+    "react-datepicker-component-hook-form-select",
+    "react-datepicker-hook-form-component",
+    "react-datepicker-hook-form-component-select",
+    "react-datepicker-hook-form-component-select-hook-form",
+    "react-datepicker-hook-form-component-select-component",
+    "react-datepicker-hook-form-component-select-component-hook-form",
+    "react-datepicker-hook-form-component-select-component-select",
+    "react-datepicker-hook-form-component-select-component-select-hook-form"
+  ],
+  "author": "DigitalCraft",
+  "license": "DC",
+  "peerDependencies": {
+    "react": ">=16.8.0 || >=17.0.0 || >=18.0.0 || >=19.0.0",
+    "react-dom": ">=16.8.0 || >=17.0.0 || >=18.0.0 || >=19.0.0"
+  },
+  "peerDependenciesMeta": {
+    "react": {
+      "optional": false
+    },
+    "react-dom": {
+      "optional": false
+    }
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.0.6",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.3"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/craft-selector.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/craft-selector/issues"
+  },
+  "homepage": "https://github.com/your-username/craft-selector#readme",
+  "dependencies": {
+    "dayjs": "^1.11.13"
+  }
+}
