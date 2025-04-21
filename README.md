@@ -1,5 +1,5 @@
 
-# REx Date Time Picker
+# REX Date Picker
 
 This package is the Community plan edition of the Date Picker components. It's part of Rex, an open-core extension of our Core libraries, with advanced components.
 
