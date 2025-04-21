@@ -29,7 +29,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/web/portfolio/portfolio",
+    "last_opened_file_path": "D:/web/pakegs/datePickerStander",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -61,6 +61,7 @@
       <workItem from="1744835412472" duration="31000" />
       <workItem from="1744840528186" duration="360000" />
       <workItem from="1745008827521" duration="15000" />
+      <workItem from="1745010600354" duration="227000" />
     </task>
     <servers />
   </component>
