@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4de89747-da56-43ae-9eae-ec821a178850" name="Changes" comment="" />
+    <list default="true" id="4de89747-da56-43ae-9eae-ec821a178850" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,12 +31,13 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/web/pakegs/datePickerStander",
+    "last_opened_file_path": "D:/web/portfolio/portfolio",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "ts.external.directory.path": "D:\\web\\pakegs\\datePickerStander\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
@@ -62,6 +65,8 @@
       <workItem from="1744840528186" duration="360000" />
       <workItem from="1745008827521" duration="15000" />
       <workItem from="1745010600354" duration="227000" />
+      <workItem from="1745270300708" duration="338000" />
+      <workItem from="1745440734916" duration="22000" />
     </task>
     <servers />
   </component>
